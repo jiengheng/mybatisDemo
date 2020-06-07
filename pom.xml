@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!--整合mybatis用的-->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -19,6 +20,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.43</version>
         </dependency>
+
+        <!--整合jedis操作-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
